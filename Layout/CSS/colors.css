@@ -1,0 +1,27 @@
+body{
+  margin: 10px;
+}
+div{
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+/*
+gradient by default is top to bottom
+Can also use a gradient generator
+*/
+.box{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, dodgerblue, yellow);
+  border: 10px dotted royalblue;
+  border-width: 10px ; /*trbl*/
+  box-shadow: 0 0 30px grey;
+  /* box-shadow /text-shadow = [left/right] [top/bottom] [softness] [color]*/
+}
+
+h1{
+ 
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) ;
+}

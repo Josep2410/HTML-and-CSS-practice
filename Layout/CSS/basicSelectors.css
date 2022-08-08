@@ -1,0 +1,48 @@
+body{
+  margin: 10px;
+}
+
+article p:first-of-type{
+  font-size: 140%;
+  font-style: italic;
+}
+
+article  :last-child{
+  font-weight: bold;
+}
+
+ul li:nth-child(odd){
+  color: pink;
+}
+a:visited, a:link{
+  color: dodgerblue;
+}
+a:hover, a:focus{
+  color: deeppink;
+}
+
+.custom::first-letter{
+  font-size: 50px;
+}
+.custom::first-line{
+  font-weight: bold;
+}
+
+::selection{
+  background-color: pink;
+}
+
+ /*can replace 'after' with 'before' */
+p::after{
+  content:"...";
+  display: block;
+}
+
+.other{
+  color: blue;
+  border: 1px solid black;
+}
+strong{
+  color: initial;
+  border: inherit;
+}
