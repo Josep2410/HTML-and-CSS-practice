@@ -1,0 +1,29 @@
+h1{
+  margin: 3rem 0 1rem;
+}
+body{
+  font-size: 1rem;
+  line-height: 1.5;
+  /*letter-spacing: 1px;
+  word-spacing: 5px;*/
+}
+
+p{
+  width: 50ch;
+  /*
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-transform: uppercase, lowercase, etc;
+
+  column-count: 2; split p into 2 sections
+  column-gap: 2rem; control gap inbetween sections
+  column-rule: 3px dotted #999; detailing line inbetween sections
+  
+  direction: rtl; right to left
+
+  */
+  text-indent: 1rem;
+  
+ 
+}
