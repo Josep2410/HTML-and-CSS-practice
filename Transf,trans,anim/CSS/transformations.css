@@ -1,0 +1,30 @@
+body{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.box{
+  width:100px;
+  height:100px;
+  background-color: gold;
+  transition: transform 0.5s linear 1s;
+}
+
+
+
+/*
+ .container{
+  perspective: 200px;
+}
+.container:hover .box{
+ 
+  transform: rotateY(50px);
+  transform-origin: 0 0;
+ transform: rotate(-15deg) ;
+  transform: translate(10px, 50px) ;
+  transform: scale(1.5);
+   transform: perspective(200px) translatez(50px);
+  transform: perspective(200px) rotateY(50px); 
+}
+  */
